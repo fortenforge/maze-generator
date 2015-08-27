@@ -44,7 +44,7 @@
         <option value=28>28</option>
         <option value=29>29</option>
         <option value=30>30</option>
-      </select><br>Height: <select id="height">
+      </select>  Height: <select id="height">
         <option value=1>1</option>
         <option value=2>2</option>
         <option value=3>3</option>
@@ -75,7 +75,14 @@
         <option value=28>28</option>
         <option value=29>29</option>
         <option value=30>30</option>
-      </select><br><input type="button" id="generate" value="Generate Maze"></p>
+      </select><br>Algorithm: <select id="algorithm">
+        <option value="prims">Prim's Algorithm</option>
+        <option value="dfs">Depth First Search (DFS)</option>
+        <option value="bfs">Breadth First Search (BFS)</option>
+        <option value="horizontal">DFS - Horizontal Bias</option>
+        <option value="vertical">DFS - Vertical Bias</option>
+        <option value="diagonal">DFS - Diagonal Bias</option>
+      </select><br>Show Path: <input type="checkbox" id="path"><br><input type="button" id="generate" value="Generate Maze"></p>
       </div>
       <div id="maze">
       </div>
